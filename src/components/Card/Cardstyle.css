@@ -1,0 +1,33 @@
+.bgOfImg{
+    background: #fffefe;
+    border: 1px solid rgb(146, 146, 146);
+    width: 258px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stOfTxt{
+    font: 'Montserrat' sans-serif;
+    /* background: #000; */
+    font-weight: 400;
+    font-size: 16px;
+}
+.price{
+    font-weight: 700;
+    font-size: 18px;
+    color: #46A358;
+    font: 'Montserrat' sans-serif;
+
+}
+.nonprice{
+    /* font-weight: 700; */
+    font-size: 18px;
+    color: #939393;
+    font: 'Montserrat' sans-serif;
+    text-decoration: line-through;
+}
+.gg{
+    display: flex;
+    gap: 10px;
+}

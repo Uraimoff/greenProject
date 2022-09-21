@@ -8,8 +8,6 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-    {/* <Navbar/>  */}
-
           {routes.map(({ path, element }) => (
             <Route path={path} element={element} key={path} />
           ))}

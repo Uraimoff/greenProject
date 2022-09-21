@@ -1,0 +1,11 @@
+.dsplay{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: auto auto auto;
+    padding: 50px 0;
+    gap: 50px;
+    /* background: #000; */
+}
+.search{
+    padding: 10px 0;
+}
