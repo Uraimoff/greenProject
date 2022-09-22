@@ -8,4 +8,27 @@
 }
 .search{
     padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+.input{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+.greenBtn{
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    background-color: #30bf4d;
+    color: white;
+    margin: 5px;
+}
+.deleteBtn{
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    background-color: #bf1a1a;
+    color: white;
+    margin: 5px;
 }

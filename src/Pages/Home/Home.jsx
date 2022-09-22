@@ -48,16 +48,18 @@ class Home extends React.Component{
     return (
       <>
         <div className="globalWrapper">
+          <h1>Search</h1>
           <div className="search">
-          <Search />
-          <input onChange={onNameFilter} type="text" placeholder="name"/>
-          <input onChange={onPriceFilter} type="number" placeholder="price"/>
+          {/* <Search />   */}
+          <input className="input" onChange={onNameFilter} type="text" placeholder="name"/>
+          <input className="input" onChange={onPriceFilter} type="number" placeholder="price"/>
           </div>
+          <h1>Create</h1>
           <div className="search">
-            <input onChange={({target: {value}})=>{this.setState({img:value})}} placeholder="image" type="file" accept="image/*,image/heif,image/heic"></input>
-            <input onChange={({target: {value}})=>{this.setState({name:value})}} placeholder="name" type="text" />
-            <input onChange={({target: {value}})=>{this.setState({price:value})}} placeholder="price" type="number" />
-            <button onClick={onCreate}>add</button>
+            <input className="input" onChange={({target: {value}})=>{this.setState({img:value})}} placeholder="image" type="file" accept="image/*,image/heif,image/heic"></input>
+            <input className="input" onChange={({target: {value}})=>{this.setState({name:value})}} placeholder="name" type="text" />
+            <input className="input" onChange={({target: {value}})=>{this.setState({price:value})}} placeholder="price" type="number" />
+            <button className="greenBtn" onClick={onCreate}>add</button>
           </div>
           <div className="dsplay">
           {this.state.list.map((value, index) => {
@@ -69,8 +71,8 @@ class Home extends React.Component{
                   price={value.price}
                   nonprice={value.nonprice}
                 />
-                <button onClick={()=>test(value.name)}>select</button>
-                <button onClick={()=>onDelete(value.id)}>delete</button>
+                <button className="greenBtn"  onClick={()=>test(value.name)}>select</button>
+                <button className="deleteBtn" onClick={()=>onDelete(value.id)}>delete</button>
               </div>
             );
           })}
