@@ -1,0 +1,158 @@
+.ddiv{
+    width: 500px;
+    height: 300px;
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+    /* padding: 10px 15px; */
+    display: flex;
+    /* overflow: hidden; */
+}
+.inner_txt{
+    -webkit-transition:  background 0.3s ease-in-out;
+    -moz-transition:  background 0.3s ease-in-out;
+    -ms-transition:  background 0.3s ease-in-out;
+    -o-transition:  background 0.3s ease-in-out;
+    transition:  background 0.3s ease-in-out;
+}
+/* .value{
+    width: 500px;
+    height: 300px;
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+    padding: 10px 15px;
+     display: flex; 
+ } */
+
+.id_sticky{
+    border-width: 0px 0px 1px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--color);
+    background: white;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 25px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(245, 245, 245) !important;
+    height: 56px;
+    position: sticky;
+    left: 0px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgb(38, 38, 38);
+    /* background: whitesmoke; */
+    padding: 0px 10px 0px 25px;
+    height: 56px;
+    box-sizing: border-box;
+    width: auto;
+    white-space: nowrap;
+    text-align: start;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.horizont_sticky{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgb(38, 38, 38);
+    background: whitesmoke;
+    padding: 0px 10px 0px 25px;
+    height: 56px;
+    box-sizing: border-box;
+    width: auto;
+    white-space: nowrap;
+    text-align: start;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.edit_sticky{
+    border-width: 0px 0px 1px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--color);
+    background: white;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 25px; 
+    border-bottom-style: solid;
+    border-bottom-color: rgb(245, 245, 245);
+    height: 56px;
+    position: sticky;
+    left: 0px;
+    right: 0px;
+    /* padding-right: 0 !important; */
+}
+.Edit_name{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgb(38, 38, 38);
+    background: whitesmoke;
+    padding: 0px 10px 0px 25px;
+    height: 56px;
+    box-sizing: border-box;
+    width: auto;
+    white-space: nowrap;
+    text-align: start;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.Id_name{
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgb(38, 38, 38);
+    background: whitesmoke;
+    padding: 0px 10px 0px 25px;
+    height: 56px;
+    box-sizing: border-box;
+    width: auto;
+    white-space: nowrap;
+    text-align: start;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
