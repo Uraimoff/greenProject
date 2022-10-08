@@ -2,9 +2,14 @@ import React from 'react'
 import "./Formstyle.css"
 import { Link } from "react-router-dom";
 
-function Form() {
-  return (
-    <>
+class Form extends React.Component() {
+   state={
+    list: ""
+   }
+render(){
+
+        return (
+            <>
     <div>
         <Link to="/">Home</Link>
     </div>
@@ -117,6 +122,7 @@ function Form() {
     </div>
     </>
   )
+}
 }
 
 export default Form
