@@ -1,0 +1,66 @@
+.addCl{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+@media only screen and (max-width: 426px){
+    .addCl{
+        display: grid !important;
+        grid-template-columns: auto!important;
+        width: auto;
+    }
+    .AddedWr{
+        background-color: #E3E3E3;
+        padding: 60px 30px;
+        margin: 0 !important;
+        /* width: 768px; */
+    }
+}
+@media only screen and (max-width: 767px){
+    .addCl{
+        display: grid !important;
+        grid-template-columns: auto auto!important;
+        width: 700px;
+    }
+    .AddedWr{
+        background-color: #E3E3E3;
+        padding: 60px 30px;
+        margin: 0 !important;
+        /* width: 768px; */
+    }
+ }
+.AddedWr{
+    background-color: #E3E3E3;
+    padding: 60px 30px;
+}
+.BgTxt{
+    color: #505050;
+    font-family: Vollkorn,Arial,Verdana,sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+.BgTxt:hover{
+    text-decoration: underline;
+    
+}
+.name{
+    font-size: 24px;
+    color: #505050;
+    font-weight: 600;
+    font-family: Vollkorn,Arial,Verdana,sans-serif;
+    padding-bottom: 10px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.name:hover{
+    text-decoration: underline;
+}
+.country{
+    font-size: 20px;
+    color: #505050;
+    font-family: Vollkorn,Arial,Verdana,sans-serif;
+}
+/* .add{
+    display: grid;
+    grid-template-columns: auto auto auto;
+} */
